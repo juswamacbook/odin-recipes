@@ -1,0 +1,19 @@
+:root {
+  --bs-primary: #e74c3c;    /* Change primary to red */
+  --bs-success: #27ae60;    /* Change success to green */
+  --bs-warning: #f39c12;    /* Change warning to orange */
+}
+
+/* Or target specific components */
+.navbar-custom {
+    background-color: var(--bs-warning) !important;
+}
+
+.recipe-jumbotron {
+    background: linear-gradient(135deg, var(--bs-warning), var(--bs-orange));
+    color: white;
+}
+
+img {
+  border-radius: 15px;
+}
